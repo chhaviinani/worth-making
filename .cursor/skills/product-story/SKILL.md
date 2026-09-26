@@ -57,3 +57,5 @@ If those three contradict, the story is not done.
 Update `ideas/<slug>.md` **Story**, and write `ideas/<slug>-story.md` from the story-card template.
 
 If they cannot get to a sayable why, they are not ready to build. Point back to `worth-making`.
+
+If the why is sayable, offer `marketing-method` so the story has a home at each step, not only in a pitch.

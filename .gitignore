@@ -1,0 +1,4 @@
+# Personal briefs stay on your machine.
+# The index is the only ideas file that belongs in git.
+ideas/*
+!ideas/README.md

@@ -18,4 +18,4 @@ Do not quote or copy chapter text from *Build*.
 
 ## Skills
 
-`worth-making`, `product-story`, `customer-journey`, `not-just-features`, `prototype-before-powerpoint`, `design-the-feeling`, `disruption-check`, `version-zero`, `constraints-as-fuel`, `premortem`, `kill-or-keep`, `data-versus-opinion`, `mentor-map`, `manager-or-maker`, `hard-conversation`, `give-a-shit-hire`, `stakeholder-story`, `ceo-translation`, `board-one-pager`.
+`worth-making`, `product-story`, `customer-journey`, `not-just-features`, `prototype-before-powerpoint`, `design-the-feeling`, `disruption-check`, `version-zero`, `constraints-as-fuel`, `premortem`, `kill-or-keep`, `data-versus-opinion`, `mentor-map`, `manager-or-maker`, `hard-conversation`, `give-a-shit-hire`, `marketing-method`, `stakeholder-story`, `ceo-translation`, `board-one-pager`.

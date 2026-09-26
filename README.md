@@ -99,6 +99,7 @@ The skills follow the six parts of *Build*. They are questions and templates, no
 | Run                   | When it helps                     |
 | --------------------- | --------------------------------- |
 | **give-a-shit-hire**  | Hire for curiosity and craft      |
+| **marketing-method**  | What to say, and where, from the start |
 | **hard-conversation** | Help someone toward a better seat |
 | **stakeholder-story** | The same truth in every room      |
 
@@ -126,7 +127,7 @@ Straight from the book, kept close:
 
 ## Coming later
 
-Not written yet: picking a first company, dealing with destructive people, marketing from day one, crisis, and M&A. If you want one of these, open an issue. I would love that.
+Not written yet: picking a first company, dealing with destructive people, crisis, and M&A. If you want one of these, open an issue. I would love that.
 
 ## Files
 

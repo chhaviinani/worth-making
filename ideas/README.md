@@ -8,6 +8,7 @@ Product briefs. Skills write:
 | `<slug>-story.md` | `product-story` |
 | `<slug>-v0.md` | `version-zero` (Generation 1) |
 | `<slug>-journey.md` | `customer-journey` |
+| `<slug>-marketing.md` | `marketing-method` |
 | `<slug>-features.md` | `not-just-features` |
 | `<slug>-disruption.md` | `disruption-check` |
 | `<slug>-constraints.md` | `constraints-as-fuel` |
@@ -21,3 +22,5 @@ Product briefs. Skills write:
 | `<slug>-ceo.md` | `ceo-translation` (if about this product) |
 
 Copy from `templates/`. Do not invent a second structure.
+
+Briefs you write here stay on your machine. Only this index is meant for the public repo.
