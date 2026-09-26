@@ -1,6 +1,6 @@
 # worth-making
 
-A small Cursor kit, inspired by Tony Fadell's *Build: An Unorthodox Guide to Making Things Worth Making*, for sitting with an idea and asking better questions.
+A small kit, inspired by Tony Fadell's *Build: An Unorthodox Guide to Making Things Worth Making*, for sitting with an idea and asking better questions.
 
 You describe what you are making. The agent walks you through the same kinds of questions Tony Fadell would: why it exists, who it is for, what Generation 1 really is, and when you would stop. You leave with a brief you can actually share.
 
@@ -10,13 +10,32 @@ If *Build* already lives in your head, this is a way to keep it next to the work
 
 ## Get started
 
-1. Open this folder in Cursor.
-2. In chat, type:
+Open this folder in Cursor, VS Code, Claude Code, or any editor whose agent can read the repo.
 
-   ```
-   run worth-making
-   ```
-3. Tell it the idea in a few sentences. Answer as you go. Treat it like a kind studio crit, not an exam.
+In chat:
+
+```
+run worth-making
+```
+
+Tell it the idea in a few sentences. Answer as you go. Treat it like a kind studio crit, not an exam.
+
+If your tool does not know what `run` means, say this instead:
+
+```
+Read .cursor/skills/worth-making/SKILL.md and follow it.
+```
+
+Swap in any skill name from the list below. The instructions are just markdown in `.cursor/skills/`.
+
+| Tool | What it reads |
+|---|---|
+| Cursor | `.cursor/skills/` on its own. `run worth-making` is enough. |
+| Claude Code | `CLAUDE.md`, which points at `AGENTS.md` |
+| VS Code with GitHub Copilot | `.github/copilot-instructions.md` |
+| Codex and other agents that honor `AGENTS.md` | `AGENTS.md` |
+
+If a tool ignores all of those, the one-line prompt above still works. Paste it, then the idea.
 
 Product briefs land in `ideas/`. Career, hiring, CEO, and board briefs land in `career/`.
 
@@ -112,10 +131,13 @@ Not written yet: picking a first company, dealing with destructive people, marke
 ## Files
 
 ```
-.cursor/skills/     what Cursor runs (one folder per skill)
-templates/          the pages those skills fill in
-ideas/              product briefs
-career/             you, hiring, hard conversations, CEO, board
+.cursor/skills/                    one folder per skill (any agent can read these)
+templates/                         the pages those skills fill in
+ideas/                             product briefs
+career/                            you, hiring, hard conversations, CEO, board
+AGENTS.md                          how agents should run a skill
+CLAUDE.md                          pointer for Claude Code
+.github/copilot-instructions.md    pointer for GitHub Copilot
 ```
 
 ## About
